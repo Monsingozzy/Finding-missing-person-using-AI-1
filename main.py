@@ -3,7 +3,6 @@ import sys
 import base64
 import io
 from threading import Thread
-
 import cv2
 from PIL import Image
 import numpy as np

@@ -4,10 +4,10 @@ from datetime import datetime
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
-
+# AIzaSyBhT3X7CUqrpXSpzUlr97wyrrQp6b7tcsM
 cred = credentials.Certificate('key.json')
 firebase_admin.initialize_app(cred,
-                            {'databaseURL': 'https://missing-person-e1a61.firebaseio.com'}  # nopep8
+                            {'databaseURL': 'https://facialrecognition-02.firebaseio.com'}  # nopep8
 )
 print('Connection to DB established')
 
